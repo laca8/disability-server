@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/api/report'
+const API_URL = 'https://disability-server.vercel.app/api/report'
 const getReports = async(keywords)=>{
     if(keywords.connName == "" && keywords.name == '' && keywords.phone == '' && keywords.numReport == ''){
         const response = await axios.get(`${API_URL}`)
