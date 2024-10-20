@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/api/sugg'
+const API_URL = 'https://disability-server.vercel.app/api/sugg'
 const getSuggs = async(keywords)=>{
     if(keywords&& keywords.connName && keywords.side == '' && keywords.phone == '' && keywords.numSugg == ''){
         const response = await axios.get(`${API_URL}?connName=${keywords.connName}`)
