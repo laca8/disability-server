@@ -6,7 +6,7 @@ const StatusWork = () => {
     const [notify,setNotify] = useState('')
     const [title,setTitle] = useState('')
     const [data,setData] = useState([])
-        const API_URL = 'http://localhost:5000/api/eduStatus' 
+        const API_URL = 'https://disability-server.vercel.app/api/eduStatus' 
     
         const handleAdd = async()=>{
            if(title == ''){
