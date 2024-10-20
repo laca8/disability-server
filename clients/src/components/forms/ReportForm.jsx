@@ -40,7 +40,7 @@ const [notify,setNotify] = useState('')
   const [marrDataStatus,setMarrDataStatus] = useState([])
   const [disData,setDisData] = useState([])
   const [load,setLoad] = useState(false)
-  const URL_REPORT = 'http://localhost:5000/api/report'
+  const URL_REPORT = 'https://disability-server.vercel.app/api/report'
   const handleSubmitReport =  async()=>{
     const connector = JSON.parse(localStorage.getItem('connector'))
     console.log(connector); 
@@ -113,7 +113,7 @@ const [notify,setNotify] = useState('')
 setNotify(toast.error(error))      
   }
   },[error])
-  const API_URL = 'http://localhost:5000/api' 
+  const API_URL = 'https://disability-server.vercel.app/api' 
 
   useEffect(()=>{
     const fetchData1 = async()=>{
