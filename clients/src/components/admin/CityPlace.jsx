@@ -17,7 +17,7 @@ const CityPlace = () => {
     const [c3,setC3] = useState([])
     const [search1,setSearch1] = useState('')
     const [search2,setSearch2] = useState('')
-        const API_URL = 'http://localhost:5000/api/city' 
+        const API_URL = 'https://disability-server.vercel.app/api/city' 
    
     const handleD1=()=>{
         setD1(!d1)
