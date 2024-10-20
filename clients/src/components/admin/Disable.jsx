@@ -6,7 +6,7 @@ const Disable = () => {
 const [notify,setNotify] = useState('')
 const [title,setTitle] = useState('')
 const [data,setData] = useState([])
-    const API_URL = 'http://localhost:5000/api/disable' 
+    const API_URL = 'https://disability-server.vercel.app/api/disable' 
 
     const handleAdd = async()=>{
        if(title == ''){
