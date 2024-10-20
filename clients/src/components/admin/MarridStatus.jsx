@@ -6,7 +6,7 @@ const MarridStatus = () => {
     const [notify,setNotify] = useState('')
     const [title,setTitle] = useState('')
     const [data,setData] = useState([])
-        const API_URL = 'http://localhost:5000/api/marrideStatus' 
+        const API_URL = 'https://disability-server.vercel.app/api/marrideStatus' 
     
         const handleAdd = async()=>{
            if(title == ''){
