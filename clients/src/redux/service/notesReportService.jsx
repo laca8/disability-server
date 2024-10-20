@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/api/note'
+const API_URL = 'https://disability-server.vercel.app/api/note'
 
 const getNotes = async(id)=>{
     const response = await axios.get(`${API_URL}/${id}`)
