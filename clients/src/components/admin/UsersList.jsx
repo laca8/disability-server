@@ -7,7 +7,7 @@ import axios from 'axios';
 const UsersList = () => {
 const [notify,setNotify] = useState('')
 const [users,setUsers] = useState([])
-const API_URL = 'http://localhost:5000/api/user'
+const API_URL = 'https://disability-server.vercel.app/api/user'
 useEffect(()=>{
    const fetchData = async()=>{
     try {
