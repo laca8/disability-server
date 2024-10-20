@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/api/user'
+const API_URL = 'https://disability-server.vercel.app//api/user'
 //register
 const register = async (user)=>{
     let config = {
