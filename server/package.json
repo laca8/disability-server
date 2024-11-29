@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "server": "nodemon server",
-    "build": "npm install  && cd clients && npm install && npm run build",
-    "client": "npm run dev --prefix  clients",
     "dev": "nodemon server",
     "start":"node server"
   },
