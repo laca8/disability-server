@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "server": "cd server && nodemon server",
+    "server": "nodemon server",
     "build": "npm install  && cd clients && npm install && npm run build",
     "client": "npm run dev --prefix  clients",
-    "dev": "concurrently \"npm run server \" \"npm run client\""
+    "dev": "nodemon server",
+    "start":"nodemon server"
   },
   "description": "",
   "dependencies": {
