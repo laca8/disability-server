@@ -4,7 +4,7 @@
     "build": "npm install  && cd clients && npm install && npm run build",
     "client": "npm run dev --prefix  clients",
     "dev": "nodemon server",
-    "start":"nodemon server"
+    "start":"node server"
   },
   "description": "",
   "dependencies": {
